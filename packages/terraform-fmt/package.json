@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+        "spec": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/apm-install-dir-11803-16689-1v7970z.broppq4cxr"
+    ]
+  ],
+  "_from": "../d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+  "_id": "terraform-fmt@0.3.0",
+  "_inCache": true,
+  "_location": "/terraform-fmt",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+    "spec": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+  "_shasum": "b2269a585f9c26879fdb63e07e55beceb9436030",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/d-11803-16689-1hgb70w.fvpavh1tt9/package.tgz",
+  "_where": "/private/var/folders/dq/9llhv0jj3pj8x_9z815t4bm5px6ff3/T/apm-install-dir-11803-16689-1v7970z.broppq4cxr",
+  "bugs": {
+    "url": "https://github.com/mattaitchison/atom-terraform-fmt/issues"
+  },
+  "dependencies": {},
+  "description": "Format tf source code with terraform fmt",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mattaitchison/atom-terraform-fmt#readme",
+  "keywords": [
+    "terraform",
+    "fmt",
+    "tf",
+    "format"
+  ],
+  "license": "MIT",
+  "main": "./lib/terraform-fmt",
+  "name": "terraform-fmt",
+  "optionalDependencies": {},
+  "package-deps": [
+    "language-terraform"
+  ],
+  "readme": "# terraform-fmt package\n\nFormat tf source code with `terraform fmt`.\n\n## Requirements\n- terraform: https://github.com/hashicorp/terraform\n\n## Configuration\n```json\nterraform-fmt:\n  binPath: \"terraform\"\n  fmtOnSave: true\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattaitchison/atom-terraform-fmt.git"
+  },
+  "version": "0.3.0"
+}

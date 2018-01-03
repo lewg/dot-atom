@@ -1,0 +1,13 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Source Code Pro"
+  "exception-reporting":
+    userId: "ce759f9e-5bb8-434f-a517-576885942731"
+  welcome:
+    showOnStartup: false
